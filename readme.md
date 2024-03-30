@@ -7,7 +7,9 @@ Thonny say the connection on "configure interpreter" --> Port or WebREPL --> if 
 Theoretical, you can install a MicroPython image with Thonny, all see very simple, but i confront a problem over Thonny: after flashing, 
 the ESP8266 blink forever and nothing more is posible.
 
-I try the flashing again with esptool.py and i have no problem. 
+I try the flashing again with esptool.py and i have no problem.
+
+  esptool.py --port /dev/cu.usbserial-1440 --baud 460800 write_flash --flash_size=detect 0 /Users/iam/Downloads/ESP8266_GENERIC-20240222-v1.22.2.bin
 
 
 Install micropython Libreries on esp8266
