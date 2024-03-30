@@ -22,10 +22,15 @@ First Experiment: ESP8266 + HCSR04 + MicroPython
 --------------------
 PinOUTs:
 HCSR04 => ESP8266 => MiPy
+
 gnd  =>  G
+
 trig =>  D6 ==> 12
+
 echo =>  D5 ==> 14
+
 vcc  =>  Vin
+
 
 CODE:
 ---------------------
