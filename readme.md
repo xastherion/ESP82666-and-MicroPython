@@ -21,6 +21,7 @@ extern librery as "hcsr04.py" then we use on program: "from hcsr04 import HCSR04
 First Experiment: ESP8266 + HCSR04 + MicroPython
 --------------------
 PinOUTs:
+
 HCSR04 => ESP8266 => MiPy
 
 gnd  =>  G
